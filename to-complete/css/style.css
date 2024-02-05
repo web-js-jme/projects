@@ -1,0 +1,112 @@
+body,
+main {
+  margin: 0;
+  background-color: black;
+}
+
+.top-container {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons-container {
+  display: flex;
+}
+
+.buttons-container button {
+  background-color: black;
+  color: white;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line hr {
+  width: 500px;
+  color: grey;
+}
+
+.logo-container {
+  width: 100px;
+  height: 70px;
+}
+
+footer p {
+  font-size: 12px;
+}
+
+.username-avatar p {
+  color: white;
+  font-size: 12px;
+  margin: -1px;
+}
+
+.username-avatar {
+  width: 250px;
+  height: 100px;
+}
+
+.icons {
+  color: white;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+}
+
+#viewpPofile {
+  color: grey;
+}
+
+.dropdown-toggle {
+  border: none !important;
+}
+
+.introduction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-cotainer {
+  width: 400px;
+  height: 300px;
+}
+
+.text-cotainer h3 {
+  color: white;
+}
+
+.text-cotainer p {
+  color: grey;
+}
+
+.image-container img {
+  height: 500px;
+}
+
+.form-control::placeholder {
+  font-size: 12px;
+}
+
+.form-control,
+.btn {
+  height: 40px;
+  color: white;
+  background-color: white;
+  color: black;
+  margin-right: 5px;
+}
+
+.images-container {
+  padding: 20px;
+  align-items: end;
+}
